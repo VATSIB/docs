@@ -26,7 +26,6 @@ nav:
   - Главная: index.md
   - Програмное Обеспечение:
       - Установка EuroScope: software/euroscope.md
-      - VATSIM Server: software/vatsim-server.md
 
 extra_css:
   - assets/style/extra.css
