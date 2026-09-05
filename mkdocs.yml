@@ -1,0 +1,5 @@
+site_name: Vatsim Siberia
+site_url: https://vatsib.github.io/docs
+theme:
+  name: material
+  
