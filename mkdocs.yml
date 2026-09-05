@@ -1,5 +1,5 @@
 site_name: VATSIM Siberia Documentation
-site_url: https://example.com
+site_url: https://vatsib.github.io/docs/
 theme:
   language: ru
   name: material
