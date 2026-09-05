@@ -1,5 +1,30 @@
-site_name: Vatsim Siberia
-site_url: https://vatsib.github.io/docs
+site_name: VATSIM Siberia Documentation
+site_url: https://example.com
 theme:
+  language: ru
   name: material
-  
+  palette: 
+    scheme: slate
+    primary: indigo
+    accent: deep orange
+  logo: assets/images/logo.png
+  features:
+    - navigation.tabs
+    - navigation.footer
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/VATSIB
+    - icon: simple/discord
+      link: https://community.vatsim.net/
+
+copyright: Copyright © 2026 VATSIM Siberia.
