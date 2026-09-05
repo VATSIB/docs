@@ -32,7 +32,7 @@ extra_css:
   - assets/style/extra.css
 
 plugins:
-  - offline
+ ## - offline
   - search:
       lang: ru
 
