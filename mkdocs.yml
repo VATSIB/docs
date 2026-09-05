@@ -1,23 +1,50 @@
 site_name: VATSIM Siberia Documentation
 site_url: https://vatsib.github.io/docs/
+
 theme:
   language: ru
   name: material
   palette: 
     scheme: slate
     primary: indigo
-    accent: deep orange
-  logo: assets/images/logo.png
+    accent: pink
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
   features:
     - navigation.tabs
-    - navigation.footer
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
 
+nav:
+  - Главная: index.md
+  - Програмное Обеспечение:
+      - Установка EuroScope: software/euroscope.md
+      - VATSIM Server: software/vatsim-server.md
+
+extra_css:
+  - assets/style/extra.css
+
+plugins:
+  - offline
+  - search:
+      lang: ru
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details 
 
 
 extra:
