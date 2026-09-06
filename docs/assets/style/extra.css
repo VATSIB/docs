@@ -4,3 +4,7 @@
   color: #25a7dc;
 }
 
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+}

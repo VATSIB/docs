@@ -11,8 +11,8 @@ theme:
   logo: assets/images/favicon.png
   favicon: assets/images/favicon.png
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -24,26 +24,37 @@ theme:
 
 nav:
   - Главная: index.md
-  - Програмное Обеспечение:
-      - Установка EuroScope: software/euroscope.md
 
+  - Программное Обеспечение:
+      - EuroScope:
+          - Установка: software/euroscope.md
+          - Сектор-файл: software/sector-file.md
+
+      - TrackAudio:
+          - Обзор: software/trackaudio.md
+   
 extra_css:
   - assets/style/extra.css
 
+extra_javascript:
+  - assets/scripts/links.js
+
 plugins:
- ## - offline
   - search:
       lang: ru
+  - git-revision-date-localized:
+      type: timeago
 
 markdown_extensions:
   - toc:
       permalink: true
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - pymdownx.details 
+  - pymdownx.superfences
+  - attr_list
 
 
 extra:
