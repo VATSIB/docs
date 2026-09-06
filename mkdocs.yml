@@ -36,7 +36,8 @@ nav:
 
       - TrackAudio:
           - Обзор: software/trackaudio.md
-   
+      - vATIS:
+          - Установка: software/vATIS.md
 extra_css:
   - assets/style/extra.css
 
