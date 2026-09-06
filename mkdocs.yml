@@ -1,6 +1,10 @@
 site_name: VATSIM Siberia Documentation
 site_url: https://vatsib.github.io/docs/
 
+
+repo_url: https://github.com/VATSIB/docs
+repo_name: VATSIB/docs
+
 theme:
   language: ru
   name: material
