@@ -31,7 +31,7 @@ nav:
 
   - Программное Обеспечение:
       - EuroScope:
-          - Установка: software/euroscope.md
+          - Установка EuroScope:   software/euroscope.md
           - Сектор-файл: software/sector-file.md
 
       - TrackAudio:
