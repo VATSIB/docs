@@ -33,11 +33,10 @@ nav:
       - EuroScope:
           - Установка EuroScope:   software/euroscope.md
           - Сектор-файл: software/sector-file.md
-
+          - Листы EuroScope: software/lists.md
       - TrackAudio:
           - Обзор: software/trackaudio.md
-      - Lists:
-          - Обзор: software/lists.md
+
    
 extra_css:
   - assets/style/extra.css
