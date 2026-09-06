@@ -36,6 +36,8 @@ nav:
 
       - TrackAudio:
           - Обзор: software/trackaudio.md
+      - Lists:
+          - Обзор: software/lists.md
    
 extra_css:
   - assets/style/extra.css
